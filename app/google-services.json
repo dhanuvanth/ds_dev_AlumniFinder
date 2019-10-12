@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "549116041493",
+    "firebase_url": "https://alumnifinder-70c90.firebaseio.com",
+    "project_id": "alumnifinder-70c90",
+    "storage_bucket": "alumnifinder-70c90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549116041493:android:1c748ac80889510f",
+        "android_client_info": {
+          "package_name": "com.example.aluminifinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549116041493-0lj0fc0im22vc68emk0fuqhgg5b2v8d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aluminifinder",
+            "certificate_hash": "c140bd53243ab1ba187ffd0d30f6baae0bedba07"
+          }
+        },
+        {
+          "client_id": "549116041493-jgqs3o561mo2riarcj5g5cct5fh7q8ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDycO6WKpkyquhXelWmr_XW_TXMSmfAotc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549116041493-jgqs3o561mo2riarcj5g5cct5fh7q8ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

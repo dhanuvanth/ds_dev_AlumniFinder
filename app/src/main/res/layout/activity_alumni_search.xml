@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".PersonalInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4sp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/alumni_search"
+                android:textColor="@color/blue"
+                android:shadowColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_margin="50sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_state_search"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:text="@string/state"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/search_state"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_district_search"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:text="@string/district"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/search_district"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_college_search"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:text="@string/college"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/search_college"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_login"
+                android:elevation="5sp"
+                android:text="@string/search"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by \nSriharan.S"
+            android:layout_gravity="right"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>

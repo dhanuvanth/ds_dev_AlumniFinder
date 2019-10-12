@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Alumni Finder</string>
+    <string name="alumini_finder">Alumni Finder</string>
+    <string name="phone_numder">Phone Number</string>
+    <string name="login">Login to My Account</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Create Account</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="enter_verification_code">Enter Verification Code..</string>
+    <string name="last_name">Last Name :</string>
+    <string name="first_name">Name :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="enter_the_name">Enter the Name...</string>
+    <string name="state">State :</string>
+    <string name="district">District :</string>
+    <string name="college">College :</string>
+    <string name="select_date">Select Date</string>
+    <string name="submit">Submit</string>
+    <string name="alumni_search">Alumni Search</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Location :</string>
+    <string name="time">Time :</string>
+    <string name="date">Date :</string>
+    <string name="remarks">Remarks</string>
+    <string name="join">Join</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="default_notification_channel_id">DS_CH_01</string>
+</resources>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".PersonalInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10sp"
+                android:text="Name        :"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_1_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="@color/white"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rd_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:text="@string/male"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:text="@string/female"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10sp"
+                android:text="Email          :"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/email_person"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4sp"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10sp"
+                android:text="Phone\nNumber      :"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:textColor="@color/white"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10sp"
+                android:text="DOB            :"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:text="@string/select_date"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_state"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:text="@string/state"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spin_state"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/iv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add_circle_outline_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_district"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:text="@string/district"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spin_district"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/iv_district"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add_circle_outline_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_college"
+                android:layout_width="100sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:text="@string/college"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spin_college"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/iv_college"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add_circle_outline_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_login"
+                android:elevation="5sp"
+                android:text="@string/submit"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
